@@ -50,6 +50,7 @@
 
         <nav class="navbar navbar-inverse navbar-static-top">
           <div class="container">
+            
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
@@ -57,39 +58,31 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">Project name</a>
+              <a class="navbar-brand" href="#">ACEC</a>
             </div>
+
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>
               </ul>
             </div>
+
           </div>
         </nav>
 
       </div>
     </div>
 
-
-    <div class="jumbotron">
-    	<div class="container">
-    		<img class="img-responsive" src="/static/img/jumbotron_bg_final.png">
-    	</div>
-    </div>
+    <section id="home">
+	    <div class="jumbotron">
+	    	<div class="container">
+	    		<img class="img-responsive" src="/static/img/jumbotron_bg_final.png">
+	    	</div>
+	    </div>
+    </section>
 
 
 
@@ -125,60 +118,66 @@
 
       <!-- START THE FEATURETTES -->
 
-      <hr class="featurette-divider">
+      <section id="services">
+	      <hr class="featurette-divider">
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">What We Offer</h2>
-          <ul class="lead">
-          	<li>Tutoring for all ages in various subjects such as Math, English, French, and Science</li>
-          	<li>An excellent reading program</li>
-          	<li>After-School help and summer classes (discount for early-bird registration)</li>
-          	<li>Home-school support</li>
-          	<li>Curriculum Selection, etc.</li>
-          	<li>Affordable rates and flexible hours</li>
-          	<li>Experienced Teachers</li>
-          	<li>Caring atmosphere</li>
-          	<li>Special attention to children with learning difficulties</li>
-          	<li>Convenient location</li>
-          </ul>
-        </div>
-        <div class="col-md-5">
-          <img src="/static/img/teacher.png" class="featurette-image img-responsive center-block" alt="Agape Christian Education Centre">
-        </div>
-      </div>
+	      <div class="row featurette">
+	        <div class="col-md-7">
+	          <h2 class="featurette-heading">What We Offer</h2>
+	          <ul class="lead">
+	          	<li>Tutoring for all ages in various subjects such as Math, English, French, and Science</li>
+	          	<li>An excellent reading program</li>
+	          	<li>After-School help and summer classes (discount for early-bird registration)</li>
+	          	<li>Home-school support</li>
+	          	<li>Curriculum Selection, etc.</li>
+	          	<li>Affordable rates and flexible hours</li>
+	          	<li>Experienced Teachers</li>
+	          	<li>Caring atmosphere</li>
+	          	<li>Special attention to children with learning difficulties</li>
+	          	<li>Convenient location</li>
+	          </ul>
+	        </div>
+	        <div class="col-md-5">
+	          <img src="/static/img/teacher.png" class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Agape Christian Education Centre">
+	        </div>
+	      </div>
+	  </section>
 
-      <hr class="featurette-divider">
+	  <section id="about">
+	      <hr class="featurette-divider">
 
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">About Us</h2>
-          <p class="lead">We, here at Agape Christian Education Centre, are dedicated to the enrichment of every one that comes to us. This tutoring centre was born out of a love for children and a desire to help them achieve success in their academics and other areas of life as well.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img src="/static/img/about_us_img.png" class="featurette-image img-responsive center-block" alt="Agape Christian Education Centre">
-        </div>
-      </div>
+	      <div class="row featurette">
+	        <div class="col-md-7 col-md-push-5">
+	          <h2 class="featurette-heading">About Us</h2>
+	          <p class="lead">We, here at Agape Christian Education Centre, are dedicated to the enrichment of every one that comes to us. This tutoring centre was born out of a love for children and a desire to help them achieve success in their academics and other areas of life as well.</p>
+	        </div>
+	        <div class="col-md-5 col-md-pull-7">
+	          <img src="/static/img/about_us_img.png" class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Agape Christian Education Centre">
+	        </div>
+	      </div>
+      </section>
 
-      <hr class="featurette-divider">
+      <section id="contact">
+	      <hr class="featurette-divider">
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Contact Us</h2>
-          <address class="lead">
-          	1560 Brimley Road <br>
-          	Toronto, ON<br>
-          	Phone: (416) 551-7427<br>
-          	Email: agapechristianedu@gmail.com       	
-          </address>
-        </div>
-        <div class="col-md-5">
-          <div id="map" class="featurette-image img-responsive center-block" alt="Map of Location">
-          </div>
-        </div>
-      </div>
+	      <div class="row featurette">
+	        <div class="col-md-7">
+	          <h2 class="featurette-heading">Contact Us</h2>
+	          <address class="lead">
+	          	1560 Brimley Road <br>
+	          	Toronto, ON<br>
+	          	Phone: (416) 551-7427<br>
+	          	Email: agapechristianedu@gmail.com       	
+	          </address>
+	        </div>
+	        <div class="col-md-5">
+	          <div id="map" class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Map of Location">
+	          </div>
+	        </div>
+	      </div>
+	  </section>
 
-      <hr class="featurette-divider">
+      
 
       <!-- /END THE FEATURETTES -->
 
@@ -186,7 +185,7 @@
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        
       </footer>
 
     </div><!-- /.container -->
