@@ -11,6 +11,8 @@
 
     <title>Agape Christian Education</title>
 
+    <meta name="keywords" content="tutoring, tutor, tutoring for all, tutoring for all ages, Agape, Agape Christian Education Centre, ACEC, math tutor, science tutor, english tutor, language tutor, french tutor, math tutoring, science tutoring, english tutoring, language tuturing, french tutoring, Christian tutoring, Christian Education, tutoring in toronto," >
+
     <!-- Bootstrap core CSS -->
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
 
@@ -31,6 +33,17 @@
         var map = new google.maps.Map(mapCanvas, mapOptions)
       }
       google.maps.event.addDomListener(window, 'load', initialize);
+
+//code for google analytics tracking
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-67356606-1', 'auto');
+	  ga('send', 'pageview');
+
+
     </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -149,7 +162,7 @@
 	      <div class="row featurette">
 	        <div class="col-md-7 col-md-push-5">
 	          <h2 class="featurette-heading">About Us</h2>
-	          <p class="lead">We, here at Agape Christian Education Centre, are dedicated to the enrichment of every one that comes to us. This tutoring centre was born out of a love for children and a desire to help them achieve success in their academics and other areas of life as well.</p>
+	          <p class="lead">We here at Agape Christian Education Centre, are dedicated to the enrichment of every one that comes to us. This tutoring centre was born out of a love for children and a desire to help them achieve success in their academics and other areas of life as well.</p>
 	        </div>
 	        <div class="col-md-5 col-md-pull-7">
 	          <img src="/static/img/about_us_img.png" class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Agape Christian Education Centre">
@@ -171,8 +184,10 @@
 	          </address>
 	        </div>
 	        <div class="col-md-5">
-	          <div id="map" class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Map of Location">
-	          </div>
+	          <!--<div id="map" class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Map of Location">	          
+	          </div>-->
+	          <img src="/static/img/google_maps_img.png" class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Map of Location">
+
 	        </div>
 	      </div>
 	  </section>
