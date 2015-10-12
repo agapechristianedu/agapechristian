@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+ 
+<url>
+<loc>http://www.agapetutoring.com/#home</loc>
+</url>
+<url>
+<loc>http://www.agapetutoring.com/#services</loc>
+<lastmod>2015-10-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>http://www.agapetutoring.com/#about</loc>
+</url>
+<url>
+<loc>http://www.agapetutoring.com/#contact</loc>
+</url>
+<url>
+<loc>http://www.agapetutoring.com/sitemap.xml</loc>
+</url>
+ 
+</urlset>
